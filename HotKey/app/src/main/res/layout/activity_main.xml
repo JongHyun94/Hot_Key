@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background3"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_hotkey"/>
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="134dp"
+            android:text="S t a r t" />
+
+        <Button
+            android:id="@+id/settingBtn"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/startBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-130dp"
+            android:text="Setting" />
+
+    </RelativeLayout>
+
+</FrameLayout>
