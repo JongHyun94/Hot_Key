@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#ddffffff"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Button3" />
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/set1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="SET"
+        android:background="@drawable/circle2"
+        android:textSize="40dp"
+        ></Button>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000" />
+
+    <ScrollView
+        android:layout_marginTop="8dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bage">
+        <RadioGroup
+            android:id="@+id/rgroup1"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/wordGakjoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="각주 넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글꼴 굵게"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordMotionLean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글꼴 기울이기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordMotionChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글꼴 바꾸기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordMotionSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글꼴 설정"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordMotionSizeChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글꼴 크기 바꾸기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordPlusOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글꼴 크기 1포인트 증가"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/wordDownOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글꼴 크기 1포인트 감소"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordlineOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글의 간격을 1줄로"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordlineOneTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글의 간격을 1.5줄로"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordlineTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글의 간격을 2줄로"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordFound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글자 찾기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordInitial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기본화면 보기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordSaveAname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="다른이름으로 저장"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordDandiverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="단 나누기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordSynonym"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="동의어 사전"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordAdopt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="들여쓰기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordAdoptCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="들여쓰기 해체"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordFinalRe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="마지막 작업 반복하기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="맞춤법 검사"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordtoTheMemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="메모 넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordCapWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="모두 대문자로"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordTotalWindow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문서전체화면"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문서 열기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문서 닫기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문서 저장"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordFullScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문서창에 꽉찬 화면"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordMijoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미주 넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordUnderline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="밑줄 적용"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="복사"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordPaste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="붙여넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordBlockSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="블록설정"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="새로만들기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/wordFormCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서식복사"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/wordFormPaste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서식 붙여넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/wordStyleChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스타일 바꾸기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordTimeField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시간 필드 넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="양쪽 맞춤"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/wordrightCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오른쪽 맞춤"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordleftCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="왼쪽 맞춤"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="워드 도움말"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="인쇄하기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordPrintlook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="인쇄 미리보기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordCancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="작업 실행 취소"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordRePlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="작업 재실행"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordCut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="잘라내기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordTotalSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전체선택"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordWindowDiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="창분활"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordBookIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="책갈피 넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/wordPageField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="페이지 필드 넣기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                >
+            </TextView>
+
+        </RadioGroup>
+
+
+    </ScrollView>
+
+</LinearLayout>

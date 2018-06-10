@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/inputS"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="#ffffffff"
+            android:hint="여기에 연결할 컴퓨터의 동일한 공유기 상의 IP 주소를 입력하세요.
+            ex)192.168.xx.xx"
+            android:gravity="center"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColor="#ff000000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="273dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        android:padding="10dp"
+        android:src="@drawable/helper" />
+
+    <ImageButton
+        android:layout_margin="10dp"
+        android:id="@+id/buttonIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src = "@drawable/he2"
+        android:background="@android:color/transparent"
+        />
+
+</LinearLayout>

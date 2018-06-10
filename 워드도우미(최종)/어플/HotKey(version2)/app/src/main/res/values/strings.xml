@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">워드 도우미</string>
+
+    <string name="mouse_01">마우스 연결</string>
+    <string name="mouse_02">left</string>
+    <string name="mouse_03">right</string>
+    <string name="mouse_04">Up</string>
+    <string name="mouse_05">Left</string>
+    <string name="mouse_06">Right</string>
+    <string name="mouse_07">Down</string>
+    <string name="mouse_08">Enter</string>
+
+</resources>
